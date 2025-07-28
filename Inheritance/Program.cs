@@ -32,12 +32,12 @@ namespace Inheritance
             var parakeet = new Bird();
             parakeet.Name = "Parakeet";
             parakeet.Color = "Blue";
-            parakeet.lifespan = "15 years";
+            parakeet.Lifespan = "15 years";
             parakeet.WingSpan = 3;
 
             Console.WriteLine($"I am a {parakeet.Name} and my wingspan is {parakeet.WingSpan}");
             Console.WriteLine($"I am a beautiful {parakeet.Color}");
-            Console.WriteLine($"I am will live about {parakeet.lifespan}");
+            Console.WriteLine($"I am will live about {parakeet.Lifespan}");
             
 
             /*Create an object of your Reptile class
