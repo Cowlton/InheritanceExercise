@@ -28,12 +28,37 @@ namespace Inheritance
              *  
              * Creatively display the class member values 
              */
+            
+            var parakeet = new Bird();
+            parakeet.Name = "Parakeet";
+            parakeet.Color = "Blue";
+            parakeet.lifespan = "15 years";
+            parakeet.WingSpan = 3;
+
+            Console.WriteLine($"I am a {parakeet.Name} and my wingspan is {parakeet.WingSpan}");
+            Console.WriteLine($"I am a beautiful {parakeet.Color}");
+            Console.WriteLine($"I am will live about {parakeet.lifespan}");
+            
 
             /*Create an object of your Reptile class
              *  give values to your members using the object of your Reptile class
-             *  
-             * Creatively display the class member values 
+             *
+             * Creatively display the class member values
              */
+
+            var snake = new Reptile();
+            snake.Color = "tan";
+            snake.Lifespan = "10 years";
+            snake.Habitat = "sand";
+            snake.Diet = "carnivore";
+            snake.Name = "Snake";
+            
+            Console.WriteLine("");
+            Console.WriteLine($"I am a {snake.Name} and my habitat is {snake.Habitat}");
+            Console.WriteLine($"I am a {snake.Color} {snake.Diet}");
+            Console.WriteLine($"And i will live about {snake.Lifespan}");
+
+
         }
     }
 }
